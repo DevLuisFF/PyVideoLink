@@ -2,39 +2,39 @@
 
 ###
 
-<p align="left">PyVideoLink is a simple YouTube video downloader built with Python using tkinter for the graphical user interface (GUI) and pytube for video downloading.</p>
+<p align="left">PyVideoLink es un sencillo descargador de videos de YouTube construido con Python utilizando tkinter para la interfaz gráfica de usuario (GUI) y pytube para la descarga de videos.</p>
 
 ###
 
-<h2 align="left">Technologies:</h2>
+<h2 align="left">Tecnologías:</h2>
 
 ###
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
+  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="logo de python"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="logo de git"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="logo de github"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="logo de vscode"  />
 </div>
 
 ###
 
-<h2 align="left">Requirements:</h2>
+<h2 align="left">Requisitos:</h2>
 
 ###
 
-<p align="left">-Python 3.x<br>-pip (Package Manager for Python)</p>
+<p align="left">-Python 3.x<br>-pip (Gestor de paquetes para Python)</p>
 
 ###
 
-<h2 align="left">Installation of Dependencies:</h2>
+<h2 align="left">Instalación de Dependencias:</h2>
 
 ###
 
-<p align="left">To install the necessary dependencies, run the following command in your terminal:</p>
+<p align="left">Para instalar las dependencias necesarias, ejecuta el siguiente comando en tu terminal:</p>
 
 ###
 
@@ -42,39 +42,38 @@
 
 ###
 
-<h2 align="left">Usage:</h2>
+<h2 align="left">Uso:</h2>
 
 ###
 
-<p align="left">Once you have installed the dependencies, you can run the PyVideoLink.py script to start the application. The user interface allows you to enter the URL of a YouTube video and select the directory where you want to save the downloaded video. After clicking the "Download" button, the video will be downloaded to the specified directory.</p>
+<p align="left">Una vez que hayas instalado las dependencias, puedes ejecutar el script PyVideoLink.py para iniciar la aplicación. La interfaz de usuario te permite ingresar la URL de un video de YouTube y seleccionar el directorio donde deseas guardar el video descargado. Después de hacer clic en el botón "Download", el video se descargará en el directorio especificado.</p>
 
 ###
 
-<h2 align="left">Functionality:</h2>
+<h2 align="left">Funcionalidad:</h2>
 
 ###
 
-<p align="left">The program follows the following steps to download a YouTube video:</p>
+<p align="left">El programa sigue los siguientes pasos para descargar un video de YouTube:</p>
 
 ###
 
-<p align="left">1. Enter the URL of the YouTube video in the provided field.<br>2. Click the "Download" button.<br>3. A dialog box will open for you to select the directory where you want to save the video.<br>4. The video will be downloaded to the specified directory.<br>5. A message will be displayed indicating whether the download was successful, canceled, or if an error occurred during the process.</p>
+<p align="left">1. Ingresa la URL del video de YouTube en el campo proporcionado.<br>2. Haz clic en el botón "Download".<br>3. Se abrirá un cuadro de diálogo para que selecciones el directorio donde deseas guardar el video.<br>4. El video se descargará en el directorio especificado.<br>5. Se mostrará un mensaje indicando si la descarga fue exitosa, cancelada o si ocurrió un error durante el proceso.</p>
 
 ###
 
-<h2 align="left">Customization:</h2>
+<h2 align="left">Personalización:</h2>
 
 ###
 
-<p align="left">-You can customize the look of the graphical user interface by modifying the styles in the code.<br>-You can also add new features or functionalities according to your specific needs.</p>
+<p align="left">-Puedes personalizar la apariencia de la interfaz gráfica de usuario modificando los estilos en el código.<br>-También puedes agregar nuevas características o funcionalidades según tus necesidades específicas.</p>
 
 ###
 
-<h2 align="left">Contribution:</h2>
+<h2 align="left">Contribución:</h2>
 
 ###
 
-<p align="left">If you want to contribute to this project, feel free to do so. You can open an issue to report errors or request new features. You can also send pull requests with improvements to the existing code.</p>
+<p align="left">Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir un issue para reportar errores o solicitar nuevas características. También puedes enviar pull requests con mejoras al código existente.</p>
 
 ###
-
