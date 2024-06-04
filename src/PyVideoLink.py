@@ -10,13 +10,13 @@ def startdownload():
             raise ValueError("Por favor ingresa una URL.")
         
         ytObject = YouTube(ytlink, on_progress_callback=on_progress)
-        video = ytObject.streams.get_highest_resolution()
+        video = ytObject.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').first()
         original_title = title.cget("text")  # Guardar el título original
         title.configure(text=ytObject.title, text_color="black")
         finishlabel.configure(text="")
         download_path = filedialog.askdirectory()
         if download_path:
-            video.download(download_path)
+            video.download(download_path, skip_existing=True)
             finishlabel.configure(text="Descargado", text_color="blue")
             link.delete(0, 'end')  # Limpiar el campo de URL después de la descarga
             title.configure(text=original_title, text_color="black")  # Restaurar el título original
@@ -40,7 +40,7 @@ def on_progress(stream, chunk, bytes_remaining):
     # Actualización de la barra de progreso
     barraprogreso.set(float(percentage_of_completion)/100)
 
-# Diseño de la ventana
+# diseño de la ventana
 app = customtkinter.CTk()
 app.geometry("720x480")
 app.title("PyVideoLink")
@@ -73,3 +73,4 @@ download.pack(padx=10,pady=10)
 
 # Ejecución de la aplicación
 app.mainloop()
+
